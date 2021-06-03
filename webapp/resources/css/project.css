@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*로그인에 적용하는 스타일 */
+#loginfrm { width: 300px; margin : 120px auto;}
+#loginfrm label{ display:inline-block; width: 100px;
+		text-align: right; font-weight: bold;}
+
+#loginfrm div{ margin-bottom: 10px;} /* 버튼미는방식*/
+#loginfrm input, button {padding: 5px}
+#loginfrm button { margin-left: 105px; width: 75px; }
+	
+
+/*조인에 적용하는 스타일 */
+#joinfrm { /*테두리 border: 1px solid red;*/ width:300px;
+		margin : 100px auto;}
+#joinfrm div { margin-bottom: 10px; }
+#joinfrm label { display:inline-block; width: 110px;
+	text-align: right; font-weight: bold; }
+#loginfrm input, button { padding: 5px }
+#loginfrm  input { width: 150px; }
+
+/*인덱스에 적용하는 스타일 */		
+/*전체영역에 적용하는 스타일시트*/
+/*body { margin: 0 }*/
+#wrap { width:960px; margin: 0 auto;
+        /*border: 1px solid red;*/ }
+
+/*링크에 대한 스타일시트*/
+a { font-weight: bold }
+a:link { text-decoration: none; color: black }
+a:visited { text-decoration: none; color: black }
+a:active { text-decoration: underline; color: orange }
+a:hover { text-decoration: underline; color: orange }
+
+/*header영역에 적용하는 스타일시트*/
+/*nav영역에 적용하는 스타일시트*/
+nav ul { list-style-type: none; padding-bottom: 15px }
+nav ul li { float: left; margin-left: 100px; }
+nav hr { clear: both; }            
+
+/*main영역에 적용하는 스타일시트*/
+#container { min-height: 500px; }
+
+/*footer영역에 적용하는 스타일시트*/
+footer p { text-align: center }
+            
+ 
+	
+table { width: 75%; margin: 0 auto; 
+		  border-collapse: collapse;
+		  table-layout: fixed; }
+
+th, td { border: 1px solid black;
+    text-align: center; padding: 10px }
+td:nth-child(2) { white-space: nowrap; 
+    overflow: hidden; text-overflow: ellipsis }
+button { width: 100px; padding: 5px; 
+         margin-right: -10px }
+
+.newbtn { text-align: right; border: none; }
+
+.tbnav { border: none; }
+.cpage { font-weight: bold; color: red;
+         font-size: 35px }
+         
+/*본문보기에 적용하는 스타일 */                  
+#view{ width:600px; margin: 0 auto;
+		 	padding-top: 50px }
+#view div:first-child { margin-bottom: 25px; }
+
+#view div label { font-weight: bold;
+		 display:inline-block; width: 120px;
+		 text-align: right; }
+#view div span {border:1px solid silver; padding: 5px; }
+#view.contents { display:inline-block;
+		 width: 400px; height:350px; }
+#view .dragup { vertical-align: top }
+
+
+/*새글쓰기에 적용하는 스타일 */  
+    	
+#boardfrm { width:600px; margin: 0 auto;
+		 	padding-top: 50px }
+#boardfrm div { padding-top: 10px; }
+#boardfrm div label { font-weight: bold;
+		 display:inline-block; width: 120px;
+		 text-align: right; }
+#contents { display:inline-block;
+		 width: 450px; height:150px }	 
+/*구조적으로 자세히 알려줌*/	 
+/* div:nth-child(3) > label { vertical-align: top} */
+
+/*이름태그로 알려줌*/	 
+.dragup { vertical-align: top }	
+
+
+		
+/*회원정보에 적용하는 스타일 */            
+#myinfo { width: 300px; margin: 125px auto;}
+#myinfo div { padding-bottom: 5px;}
+#myinfo.label { display: inline-block; width: 120px;
+text-align: right; font-weight: bold;
+padding-right: 7px }   		
+			
